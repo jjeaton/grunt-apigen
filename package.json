@@ -1,7 +1,7 @@
 {
   "name": "grunt-apigen",
   "description": "Grunt task for generating Apigen documentation.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/Cibulka/grunt-apigen",
   "author": "Petr Cibulka <cibulka.me@gmail.com>",
   "repository": {

@@ -74,7 +74,7 @@ Destination of Apigen output.
 
 - Initial release.
 
-##### 0.1.1
+##### 0.1.2
 
 - Added an actual readme.
 - Fixed bug with adding to command (instead of overwriting it).
