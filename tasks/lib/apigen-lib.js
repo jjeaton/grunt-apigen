@@ -33,7 +33,7 @@ exports.init = function(grunt) {
 		
 		done = runner.async();
 		
-		apigenCommand += "apigen generate --source '" + options.source + "' --destination '" + options.destination + "'";
+		apigenCommand = "apigen generate --source '" + options.source + "' --destination '" + options.destination + "'";
 		
 	};
 
