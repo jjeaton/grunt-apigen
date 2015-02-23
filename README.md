@@ -80,4 +80,7 @@ Destination of Apigen output.
 - Fixed bug with adding to command (instead of overwriting it).
 - Deleted `test` directory.
 
+## ToDo list
 
+- Contact Apigen developers and (at least) fix terminal output, that is normally way nicer.
+- Learn concept of unit testing to actually use them here.
