@@ -1,12 +1,9 @@
 {
-  "name": "apigen",
+  "name": "grunt-apigen",
   "description": "Grunt task for generating Apigen documentation.",
   "version": "0.1.0",
   "homepage": "https://github.com/Cibulka/grunt-apigen",
-  "author": {
-    "name": "Petr Cibulka",
-    "email": "cibulka.me@gmail.com"
-  },
+  "author": "Petr Cibulka <cibulka.me@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/Cibulka/grunt-apigen"
@@ -34,5 +31,13 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
