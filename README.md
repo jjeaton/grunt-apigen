@@ -7,6 +7,7 @@ This is my very first Grunt plugin, so proceed with caution. For more info about
 - http://www.apigen.org/
 - https://github.com/apigen/
 
+For now, it supports only the most basic options - `source` of scripts and `destination` of documentation. More options on the way - hopefully soon.
 
 ## Prerequisities
 
@@ -82,5 +83,6 @@ Destination of Apigen output.
 
 ## ToDo list
 
-- Contact Apigen developers and (at least) fix terminal output, that is normally way nicer.
-- Learn concept of unit testing to actually use them here.
+- Fix console output to support Apigen's fancy progress bar.
+- Support all Apigen's options.
+- Do unit tests!
