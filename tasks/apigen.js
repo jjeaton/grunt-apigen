@@ -14,7 +14,13 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask('apigen', 'Grunt task for generating Apigen documentation.', function() {
 
-    apigen.setup(this);
+    var optionsDefault = {
+	  source: './',
+	  destination: './apigen-docs',
+	  quiet: false
+    };
+
+    apigen.setup(this, optionsDefault);
     
     apigen.checkApigen();
 

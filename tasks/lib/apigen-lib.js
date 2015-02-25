@@ -22,18 +22,19 @@ exports.init = function(grunt) {
 		apigenCommand = ''
 	;
 	
-	exports.setup = function(runner) {
+	exports.setup = function(runner, optionsDefault) {
 		
-		var defaults = {
-			source: './',
-			destination: './apigen-docs'
-		};
-		
-		options = runner.options(defaults);
+		options = runner.options(optionsDefault);
 		
 		done = runner.async();
 		
+		// Basic commands
 		apigenCommand = "apigen generate --source '" + options.source + "' --destination '" + options.destination + "'";
+		
+		// Quiet
+		if (options.quiet === true) {
+			apigenCommand += " --quiet";
+		}
 		
 	};
 
