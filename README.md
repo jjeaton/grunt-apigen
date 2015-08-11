@@ -1,3 +1,7 @@
+# Looking for a new maintainer!
+
+I switched my worflow to Gulp recently, so there will not be any new updates to this repo. I would definitely transfer the repo to a new owner. Let me know in issues.
+
 # grunt-apigen
 
 > Grunt task for generating Apigen documentation.
