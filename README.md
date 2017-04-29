@@ -40,7 +40,7 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```
-$ npm install grunt-test --save-dev
+$ npm install grunt-apigen --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -56,6 +56,12 @@ For now, plugin supports only 2 options to mimic basic Apigen command:
 ```
 apigen generate --source src --destination api
 ```
+
+#### options.apigenPath
+Type: `String`
+Default value: `vendor/bin/`
+
+Location of apigen script
 
 #### options.source
 Type: `String`
