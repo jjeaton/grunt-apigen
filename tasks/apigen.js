@@ -15,6 +15,7 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('apigen', 'Grunt task for generating Apigen documentation.', function() {
 
     var optionsDefault = {
+	  apigenPath: 'vendor/bin/',
 	  source: './',
 	  destination: './apigen-docs',
 	  quiet: false
