@@ -87,6 +87,12 @@ Destination of Apigen output.
 - Fixed bug with adding to command (instead of overwriting it).
 - Deleted `test` directory.
 
+##### 0.1.3
+
+- Added apigenPath option
+- Fixed npm install mistake in README
+- Fixed Github path in package.json
+
 ## ToDo list
 
 - Fix console output to support Apigen's fancy progress bar.
