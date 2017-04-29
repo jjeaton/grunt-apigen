@@ -29,7 +29,7 @@ exports.init = function(grunt) {
 		done = runner.async();
 		
 		// Basic commands
-		apigenCommand = "apigen generate --source '" + options.source + "' --destination '" + options.destination + "'";
+		apigenCommand = options.apigenPath + "apigen generate --source " + options.source + " --destination " + options.destination;
 		
 		// Quiet
 		if (options.quiet === true) {
@@ -40,7 +40,7 @@ exports.init = function(grunt) {
 
 	exports.checkApigen = function() {
 		
-		var childProcess = ChildProcess.exec('apigen --version', function(error, stdout, stderr) {
+		var childProcess = ChildProcess.exec(options.apigenPath + 'apigen --version', function(error, stdout, stderr) {
 	
 			if (error !== null) {
 				grunt.log.writeln(error);
